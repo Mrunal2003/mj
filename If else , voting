@@ -1,0 +1,46 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+   int a,b;
+   cout<<"Enter a two numbers:";
+   cin>>a>>b;
+   if(a>b)
+   {
+       cout<<"The greatest number is :"<<a;
+   }
+   else
+   cout<<"The greatest number is:"<<b;
+   
+    return 0;
+}
+
+
+Voting program .
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+   int Age ;
+   cout<<"HELLO!"<<endl<<"Welcome to voting center.";
+   cout<<"\nPlease Enter your Age:";
+   cin>>Age;
+   if(Age>18 && Age<100)
+   {
+       cout<<"You are eligible to vote!"<<endl;
+   }
+   if(Age<18&& Age>0 )
+   {
+       cout<<"Sorry!You are not eligible to vote."<<endl;
+   }
+   else 
+   
+       cout<<"Invalid Age , Please put accurate age.";
+   
+   
+    return 0;
+}
